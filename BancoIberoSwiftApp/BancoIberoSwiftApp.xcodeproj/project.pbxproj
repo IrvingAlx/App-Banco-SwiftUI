@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		060D82B32ADE1AD2003BF045 /* Cliente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060D82B22ADE1AD2003BF045 /* Cliente.swift */; };
+		060D82B52ADE1ADC003BF045 /* Cuenta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060D82B42ADE1ADC003BF045 /* Cuenta.swift */; };
+		060D82B72ADE1AEB003BF045 /* Movimiento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060D82B62ADE1AEB003BF045 /* Movimiento.swift */; };
+		060D82B92ADE1AF4003BF045 /* Tarjeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060D82B82ADE1AF4003BF045 /* Tarjeta.swift */; };
+		066DF2582AF8787E00B52BEE /* MenuTarjetasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066DF2572AF8787E00B52BEE /* MenuTarjetasView.swift */; };
+		066DF25A2AF879DD00B52BEE /* EstatusTarjetaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066DF2592AF879DD00B52BEE /* EstatusTarjetaView.swift */; };
+		0674BDE12AE5C5DA007008E3 /* ActualizarClienteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0674BDE02AE5C5DA007008E3 /* ActualizarClienteView.swift */; };
+		0674BDE32AE5C78B007008E3 /* ConsultarClienteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0674BDE22AE5C78B007008E3 /* ConsultarClienteView.swift */; };
+		06D42E922ADE1A80004EA650 /* BancoIberoSwiftAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D42E912ADE1A80004EA650 /* BancoIberoSwiftAppApp.swift */; };
+		06D42E942ADE1A80004EA650 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D42E932ADE1A80004EA650 /* ContentView.swift */; };
+		06D42E962ADE1A80004EA650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D42E952ADE1A80004EA650 /* Assets.xcassets */; };
+		06D42E992ADE1A80004EA650 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D42E982ADE1A80004EA650 /* Preview Assets.xcassets */; };
+		06E5F8352AE2120C0051B76A /* GestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E5F8342AE2120C0051B76A /* GestionView.swift */; };
+		06E5F8372AE4ADE90051B76A /* MenuClientesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E5F8362AE4ADE90051B76A /* MenuClientesView.swift */; };
+		06E5F8392AE4AF610051B76A /* NuevaCuentaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E5F8382AE4AF610051B76A /* NuevaCuentaView.swift */; };
+		06E5F83B2AE4B9CB0051B76A /* NuevaTarjetaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E5F83A2AE4B9CB0051B76A /* NuevaTarjetaView.swift */; };
+		06E5F83D2AE4BADA0051B76A /* IngreseTarjetaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E5F83C2AE4BADA0051B76A /* IngreseTarjetaView.swift */; };
+		06E5F83F2AE4C2720051B76A /* IngresarNipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E5F83E2AE4C2720051B76A /* IngresarNipView.swift */; };
+		06E5F8412AE4C3BA0051B76A /* MenuClienteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E5F8402AE4C3BA0051B76A /* MenuClienteView.swift */; };
+		06E5F8432AE4CC7A0051B76A /* SaldoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E5F8422AE4CC7A0051B76A /* SaldoView.swift */; };
+		06E5F8452AE4CDD30051B76A /* MovimientosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E5F8442AE4CDD20051B76A /* MovimientosView.swift */; };
+		06E5F8472AE4CF870051B76A /* DepositosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E5F8462AE4CF870051B76A /* DepositosView.swift */; };
+		06E5F8492AE4D2510051B76A /* RetiroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E5F8482AE4D2510051B76A /* RetiroView.swift */; };
+		06E5F84B2AE4D4680051B76A /* CambiarNipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E5F84A2AE4D4680051B76A /* CambiarNipView.swift */; };
+		06F8803D2AF6FFCA0002ED73 /* ClienteAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F8803C2AF6FFCA0002ED73 /* ClienteAPI.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		060D82B22ADE1AD2003BF045 /* Cliente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cliente.swift; sourceTree = "<group>"; };
+		060D82B42ADE1ADC003BF045 /* Cuenta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cuenta.swift; sourceTree = "<group>"; };
+		060D82B62ADE1AEB003BF045 /* Movimiento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movimiento.swift; sourceTree = "<group>"; };
+		060D82B82ADE1AF4003BF045 /* Tarjeta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarjeta.swift; sourceTree = "<group>"; };
+		066DF2572AF8787E00B52BEE /* MenuTarjetasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTarjetasView.swift; sourceTree = "<group>"; };
+		066DF2592AF879DD00B52BEE /* EstatusTarjetaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstatusTarjetaView.swift; sourceTree = "<group>"; };
+		0674BDE02AE5C5DA007008E3 /* ActualizarClienteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualizarClienteView.swift; sourceTree = "<group>"; };
+		0674BDE22AE5C78B007008E3 /* ConsultarClienteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultarClienteView.swift; sourceTree = "<group>"; };
+		06D42E8E2ADE1A80004EA650 /* BancoIberoSwiftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BancoIberoSwiftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06D42E912ADE1A80004EA650 /* BancoIberoSwiftAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BancoIberoSwiftAppApp.swift; sourceTree = "<group>"; };
+		06D42E932ADE1A80004EA650 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		06D42E952ADE1A80004EA650 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06D42E982ADE1A80004EA650 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		06E5F8342AE2120C0051B76A /* GestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestionView.swift; sourceTree = "<group>"; };
+		06E5F8362AE4ADE90051B76A /* MenuClientesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuClientesView.swift; sourceTree = "<group>"; };
+		06E5F8382AE4AF610051B76A /* NuevaCuentaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuevaCuentaView.swift; sourceTree = "<group>"; };
+		06E5F83A2AE4B9CB0051B76A /* NuevaTarjetaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuevaTarjetaView.swift; sourceTree = "<group>"; };
+		06E5F83C2AE4BADA0051B76A /* IngreseTarjetaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngreseTarjetaView.swift; sourceTree = "<group>"; };
+		06E5F83E2AE4C2720051B76A /* IngresarNipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngresarNipView.swift; sourceTree = "<group>"; };
+		06E5F8402AE4C3BA0051B76A /* MenuClienteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuClienteView.swift; sourceTree = "<group>"; };
+		06E5F8422AE4CC7A0051B76A /* SaldoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaldoView.swift; sourceTree = "<group>"; };
+		06E5F8442AE4CDD20051B76A /* MovimientosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovimientosView.swift; sourceTree = "<group>"; };
+		06E5F8462AE4CF870051B76A /* DepositosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositosView.swift; sourceTree = "<group>"; };
+		06E5F8482AE4D2510051B76A /* RetiroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetiroView.swift; sourceTree = "<group>"; };
+		06E5F84A2AE4D4680051B76A /* CambiarNipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CambiarNipView.swift; sourceTree = "<group>"; };
+		06F8803C2AF6FFCA0002ED73 /* ClienteAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClienteAPI.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06D42E8B2ADE1A7F004EA650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06D42E852ADE1A7F004EA650 = {
+			isa = PBXGroup;
+			children = (
+				06D42E902ADE1A80004EA650 /* BancoIberoSwiftApp */,
+				06D42E8F2ADE1A80004EA650 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06D42E8F2ADE1A80004EA650 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06D42E8E2ADE1A80004EA650 /* BancoIberoSwiftApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06D42E902ADE1A80004EA650 /* BancoIberoSwiftApp */ = {
+			isa = PBXGroup;
+			children = (
+				06D42E912ADE1A80004EA650 /* BancoIberoSwiftAppApp.swift */,
+				06D42E932ADE1A80004EA650 /* ContentView.swift */,
+				06D42E952ADE1A80004EA650 /* Assets.xcassets */,
+				06D42E972ADE1A80004EA650 /* Preview Content */,
+				060D82B22ADE1AD2003BF045 /* Cliente.swift */,
+				06F8803C2AF6FFCA0002ED73 /* ClienteAPI.swift */,
+				060D82B42ADE1ADC003BF045 /* Cuenta.swift */,
+				060D82B62ADE1AEB003BF045 /* Movimiento.swift */,
+				060D82B82ADE1AF4003BF045 /* Tarjeta.swift */,
+				06E5F8342AE2120C0051B76A /* GestionView.swift */,
+				06E5F8362AE4ADE90051B76A /* MenuClientesView.swift */,
+				06E5F8382AE4AF610051B76A /* NuevaCuentaView.swift */,
+				06E5F83A2AE4B9CB0051B76A /* NuevaTarjetaView.swift */,
+				06E5F83C2AE4BADA0051B76A /* IngreseTarjetaView.swift */,
+				06E5F83E2AE4C2720051B76A /* IngresarNipView.swift */,
+				06E5F8402AE4C3BA0051B76A /* MenuClienteView.swift */,
+				06E5F8422AE4CC7A0051B76A /* SaldoView.swift */,
+				06E5F8442AE4CDD20051B76A /* MovimientosView.swift */,
+				06E5F8462AE4CF870051B76A /* DepositosView.swift */,
+				06E5F8482AE4D2510051B76A /* RetiroView.swift */,
+				06E5F84A2AE4D4680051B76A /* CambiarNipView.swift */,
+				0674BDE02AE5C5DA007008E3 /* ActualizarClienteView.swift */,
+				0674BDE22AE5C78B007008E3 /* ConsultarClienteView.swift */,
+				066DF2572AF8787E00B52BEE /* MenuTarjetasView.swift */,
+				066DF2592AF879DD00B52BEE /* EstatusTarjetaView.swift */,
+			);
+			path = BancoIberoSwiftApp;
+			sourceTree = "<group>";
+		};
+		06D42E972ADE1A80004EA650 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				06D42E982ADE1A80004EA650 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06D42E8D2ADE1A7F004EA650 /* BancoIberoSwiftApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06D42E9C2ADE1A80004EA650 /* Build configuration list for PBXNativeTarget "BancoIberoSwiftApp" */;
+			buildPhases = (
+				06D42E8A2ADE1A7F004EA650 /* Sources */,
+				06D42E8B2ADE1A7F004EA650 /* Frameworks */,
+				06D42E8C2ADE1A7F004EA650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BancoIberoSwiftApp;
+			productName = BancoIberoSwiftApp;
+			productReference = 06D42E8E2ADE1A80004EA650 /* BancoIberoSwiftApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06D42E862ADE1A7F004EA650 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					06D42E8D2ADE1A7F004EA650 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 06D42E892ADE1A7F004EA650 /* Build configuration list for PBXProject "BancoIberoSwiftApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06D42E852ADE1A7F004EA650;
+			productRefGroup = 06D42E8F2ADE1A80004EA650 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06D42E8D2ADE1A7F004EA650 /* BancoIberoSwiftApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06D42E8C2ADE1A7F004EA650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D42E992ADE1A80004EA650 /* Preview Assets.xcassets in Resources */,
+				06D42E962ADE1A80004EA650 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06D42E8A2ADE1A7F004EA650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06E5F8432AE4CC7A0051B76A /* SaldoView.swift in Sources */,
+				06E5F8372AE4ADE90051B76A /* MenuClientesView.swift in Sources */,
+				06D42E942ADE1A80004EA650 /* ContentView.swift in Sources */,
+				06E5F8492AE4D2510051B76A /* RetiroView.swift in Sources */,
+				06E5F8472AE4CF870051B76A /* DepositosView.swift in Sources */,
+				06E5F8392AE4AF610051B76A /* NuevaCuentaView.swift in Sources */,
+				06E5F8452AE4CDD30051B76A /* MovimientosView.swift in Sources */,
+				06D42E922ADE1A80004EA650 /* BancoIberoSwiftAppApp.swift in Sources */,
+				06E5F84B2AE4D4680051B76A /* CambiarNipView.swift in Sources */,
+				066DF2582AF8787E00B52BEE /* MenuTarjetasView.swift in Sources */,
+				06E5F83B2AE4B9CB0051B76A /* NuevaTarjetaView.swift in Sources */,
+				06E5F8412AE4C3BA0051B76A /* MenuClienteView.swift in Sources */,
+				06F8803D2AF6FFCA0002ED73 /* ClienteAPI.swift in Sources */,
+				06E5F83F2AE4C2720051B76A /* IngresarNipView.swift in Sources */,
+				060D82B32ADE1AD2003BF045 /* Cliente.swift in Sources */,
+				060D82B92ADE1AF4003BF045 /* Tarjeta.swift in Sources */,
+				0674BDE12AE5C5DA007008E3 /* ActualizarClienteView.swift in Sources */,
+				06E5F8352AE2120C0051B76A /* GestionView.swift in Sources */,
+				060D82B52ADE1ADC003BF045 /* Cuenta.swift in Sources */,
+				066DF25A2AF879DD00B52BEE /* EstatusTarjetaView.swift in Sources */,
+				06E5F83D2AE4BADA0051B76A /* IngreseTarjetaView.swift in Sources */,
+				060D82B72ADE1AEB003BF045 /* Movimiento.swift in Sources */,
+				0674BDE32AE5C78B007008E3 /* ConsultarClienteView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		06D42E9A2ADE1A80004EA650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06D42E9B2ADE1A80004EA650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06D42E9D2ADE1A80004EA650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BancoIberoSwiftApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.irving.BancoIberoSwiftApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06D42E9E2ADE1A80004EA650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BancoIberoSwiftApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.irving.BancoIberoSwiftApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06D42E892ADE1A7F004EA650 /* Build configuration list for PBXProject "BancoIberoSwiftApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06D42E9A2ADE1A80004EA650 /* Debug */,
+				06D42E9B2ADE1A80004EA650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06D42E9C2ADE1A80004EA650 /* Build configuration list for PBXNativeTarget "BancoIberoSwiftApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06D42E9D2ADE1A80004EA650 /* Debug */,
+				06D42E9E2ADE1A80004EA650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06D42E862ADE1A7F004EA650 /* Project object */;
+}

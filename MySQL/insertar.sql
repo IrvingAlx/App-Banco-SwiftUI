@@ -1,0 +1,31 @@
+USE bancoibero;
+SELECT * FROM clientes;
+INSERT INTO clientes VALUES(0,'Ramiro','Delgado','Lopez','1970-01-01','M');
+INSERT INTO clientes VALUES(DEFAULT,'Susana','Perez','Lopez','1980-05-01','F');
+INSERT INTO clientes(nombre,apellido_paterno,apellido_materno,fecha_nacimiento,sexo) VALUES('Miguel Fernando','Nuñez','Garcia','1995-01-03','M');
+INSERT INTO clientes VALUES(NULL,'María Teresa','Robles','Fernandez','1990-11-02','F');
+INSERT INTO clientes VALUES(DEFAULT,'Donald','Smith',NULL,'1950-12-09','M');
+
+SELECT * FROM cuentas;
+INSERT INTO cuentas(cliente) VALUES(10001);
+INSERT INTO cuentas(cliente) VALUES(10002);
+INSERT INTO cuentas(cliente) VALUES(10003);
+INSERT INTO cuentas(cliente) VALUES(10004);
+INSERT INTO cuentas(cliente) VALUES(10005);
+INSERT INTO cuentas(cliente,tipo) VALUES(10001,'Nomina');
+INSERT INTO cuentas(cliente,tipo) VALUES(10004,'Nomina');
+INSERT INTO cuentas(cliente,tipo) VALUES(10005,'Nomina');
+INSERT INTO cuentas(cliente,tipo) VALUES(10002,'cheques');
+INSERT INTO cuentas(cliente,tipo) VALUES(10005,'cheques');
+
+SELECT * FROM tarjetas;
+INSERT INTO tarjetas(cuenta,fecha_expiracion) VALUES(50001,DATE_ADD(NOW(),INTERVAL 5 YEAR));
+INSERT INTO tarjetas(cuenta,fecha_expiracion) VALUES(50002,DATE_ADD(NOW(),INTERVAL 5 YEAR));
+INSERT INTO tarjetas(cuenta,fecha_expiracion) VALUES(50003,DATE_ADD(NOW(),INTERVAL 5 YEAR));
+INSERT INTO tarjetas(cuenta,fecha_expiracion) VALUES(50004,DATE_ADD(NOW(),INTERVAL 5 YEAR));
+INSERT INTO tarjetas(cuenta,fecha_expiracion) VALUES(50005,DATE_ADD(NOW(),INTERVAL 5 YEAR));
+INSERT INTO tarjetas(cuenta,fecha_expiracion) VALUES(50006,DATE_ADD(NOW(),INTERVAL 5 YEAR));
+INSERT INTO tarjetas(cuenta,fecha_expiracion) VALUES(50007,DATE_ADD(NOW(),INTERVAL 5 YEAR));
+INSERT INTO tarjetas(cuenta,fecha_expiracion) VALUES(50008,DATE_ADD(NOW(),INTERVAL 5 YEAR));
+INSERT INTO tarjetas(cuenta,fecha_expiracion) VALUES(50009,DATE_ADD(NOW(),INTERVAL 5 YEAR));
+INSERT INTO tarjetas(cuenta,fecha_expiracion) VALUES(50010,DATE_ADD(NOW(),INTERVAL 5 YEAR));
